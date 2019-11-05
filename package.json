@@ -1,0 +1,35 @@
+{
+  "name": "test-sinon",
+  "version": "1.0.0",
+  "description": "Test project",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp start",
+    "build": "gulp build",
+    "test": "mocha --opts ./mocha.opts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daymon4/test-sinon.git"
+  },
+  "author": "daymon4",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daymon4/test-sinon/issues"
+  },
+  "homepage": "https://github.com/Daymon4/test-sinon#readme",
+  "dependencies": {
+    "mocha": "6.2.2",
+    "chai": "4.2.0"
+  },
+  "devDependencies": {
+    "gulp": "4.0.2",
+    "gulp-cli": "2.2.0",
+    "browser-sync": "2.26.7",
+    "gulp-concat": "2.6.1",
+    "browserify": "16.5.0",
+    "vinyl-source-stream": "2.0.0",
+    "jsdom": "15.2.1",
+    "sinon": "7.5.0"
+  }
+}
